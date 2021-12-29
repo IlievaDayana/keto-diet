@@ -32,6 +32,15 @@
                     </span>
 <h4 class="modal-title">Search</h4>
 </div>
+<!-- alignment is good practice this way our code is readable - there are plugins that we can use to auto-align when we save -->
+<!-- example
+<div class="modal-body">
+    <input type="search" placeholder="Type to Search..." class="search-box">
+    <button class="modal-search">
+        <i class="fa fa-search"></i>
+    </button>
+</div> 
+-->
 <div class="modal-body">
 <input type="search" placeholder="Type to Search..." class="search-box">
 <button class="modal-search"><i class="fa fa-search"></i></button>
@@ -42,11 +51,16 @@
 </div>
     </div>
 </div>
+<!-- all scripts could be placed into the <head> this way we can find them easily, you can move this from row 47 to the top, for example-->
 <script src="modal.js"></script>
 <header class="site-header">
         <div class="article">
             <div class="w3-button">
-            <a href=""><img class="image2"
+<!-- TODO: use inline styles for example the ones below only as a last resort
+    we can select the images by class or by ID and style them,
+    but overwriting inline styles is a tough task.
+    Try selecting .image2 and then set different width and height in style.css-->
+            <a href=""><img class="image2"                
                 src="https://blog.yourketo.diet/content/images/2018/07/shutterstock_1046974864--1--1.jpg" width="363px"
                 height="235px"></a>
 </div>
@@ -132,6 +146,7 @@
                 src="https://blog.yourketo.diet/content/images/2018/08/shutterstock_1152986474--1-.jpg" width="363px"
                 height="235px"></a>
             </div>
+            <!-- in html we use h1-h6 - a good practice is to use mainly 3, max 4; all the rest can be syled by font-size -->
             <h11 class="button5"><a href="">SOME ESSENTIAL MISTAKES IN THE KETO DIET THAT YOU HAVE TO AVOID</a></h11>
             <h12 class="title7"><a href="">Which are the most common mistakes in the ketogenic diet?</a></h12>
         </div>
@@ -142,7 +157,7 @@
            </div >
             <h13 class="button6"><a href="">A FEW SIMPLE AND EASY RULES TO ACHIEVE PERFECT KETO RESULTS</a></h13>
             <h14 class="title8"><a href=""> 7 Important Keto Rules that you have to know</a></h14>
-        
+ 
 </div>
         <div class="tabs">
             <nav>

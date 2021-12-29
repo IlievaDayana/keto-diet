@@ -1,4 +1,4 @@
-.body{
+body{
     font-family: Roboto,serif;
     font-size: 16px;
   line-height: 24px;
@@ -9,6 +9,17 @@
     width: 100%;
     top: 0;
 }
+
+/*
+good job for separating the sections, also i saw that you use % to define width and height which helps us in responsive designs;
+- bare in mind that the default browser font-size is 16px so there is no need to set it twice;
+- the selector for <body> is body -> when you hover over the selector that you have written you can see what exactly you have selected;
+- BEM, is a good practice as some type of convetion to name our classes and then style them - readable, reusable, reachable -> http://getbem.com/ - i'm open for questions and in need i will help!
+- rows 89, 167 -> a good practice in front end is to set the font in the begining of a style sheet and only change it for а very specific case;
+- for all articles (article1, 2, 3, ...) you can use the semantical tag article and style it only once,
+after you can add classes on it only for specific case to align, resize or reorder;
+*/
+
 /*header-section*/
 
 .header-section{
